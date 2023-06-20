@@ -26,7 +26,7 @@ app.get("/companyform",function(req,res){
 });
 
             
-mongoose.connect('mongodb+srv://riteshbaindara25:Ai9L6V2WquLRNmug@cluster0.stgntt6.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://riteshbaindara25:0Wz69JuE0DUccUfP@cluster0.stgntt6.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log("MONGO CONNECTION OPEN!!!")
     })
